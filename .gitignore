@@ -1,5 +1,23 @@
-node_modules
-dist
-.DS_Store
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local env files
 *.local
+.env
+.env.*
+!.env.example
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local notes and AI assistant settings
 /.docs
+.claude/
+CLAUDE.md
